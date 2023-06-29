@@ -1,0 +1,25 @@
+﻿@page
+@model UniversityPageSergio.Pages.Instructor.EditInstructorModel
+@{
+    ViewData["Title"] = "EditInstructor";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-7 offset-3">
+            <h3>Edit Instructor</h3>
+            <form method="post">
+                <input asp-for="Instructor.InstructorId" type="hidden" />
+                <div class="form-group">
+                    <label asp-for="Instructor.InstructorName">Name</label>
+                    <input asp-for="Instructor.InstructorName" class="form-control" />
+                </div>
+                <br />
+                <div class="form-group text-center">
+                    <a asp-page="AllInstructor" class="btn btn-secondary">Cancel</a>
+                    <button type="submit" class="btn btn-success">Update</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

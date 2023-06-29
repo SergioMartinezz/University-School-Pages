@@ -1,0 +1,24 @@
+﻿@page
+@model UniversityPageSergio.Pages.Student.AddStudentModel
+@{
+    ViewData["Title"] = "AddStudent";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-7 offset-3">
+            <h3>Add Student</h3>
+            <form method="post">
+                <div class="form-group">
+                    <label asp-for="Student.StudentName">Name</label>
+                    <input asp-for="Student.StudentName" class="form-control" />
+                </div>
+                <br />
+                <div class="form-group text-center">
+                    <a asp-page="AllStudent" class="btn btn-secondary">Cancel</a>
+                    <button type="submit" class="btn btn-success">Add</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

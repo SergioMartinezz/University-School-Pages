@@ -1,0 +1,30 @@
+﻿@page
+@model UniversityPageSergio.Pages.Student.DeleteStudentModel
+@{
+    ViewData["Title"] = "DeleteStudent";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-7 offset-3">
+            <h3>Delete Student</h3>
+            <h6>Are you sure you want to delete this student?</h6>
+            <form method="post">
+                <div class="form-group">
+                    <label asp-for="Student.StudentId">ID</label>
+                    <input asp-for="Student.StudentId" readonly="readonly" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Student.StudentName">Name</label>
+                    <input asp-for="Student.StudentName" readonly="readonly" class="form-control" />
+                </div>
+                <br />
+                <div class="form-group text-center">
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                </div>
+            </form>
+            <br />
+            <p><a asp-page="AllStudent">No, go back</a></p>
+        </div>
+    </div>
+</div>

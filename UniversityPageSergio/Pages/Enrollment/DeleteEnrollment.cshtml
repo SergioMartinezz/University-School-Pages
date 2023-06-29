@@ -1,0 +1,29 @@
+﻿@page
+@model UniversityPageSergio.Pages.Enrollment.DeleteEnrollmentModel
+@{
+    ViewData["Title"] = "DeleteEnrollment";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-7 offset-3">
+            <h3>Delete Enrollment</h3>
+            <p>Are you sure you want to delete this course?</p>
+            <form method="post">
+                <div class="form-group">
+                    <label asp-for="enrollment.Student.StudentName">Student</label>
+                    <input asp-for="enrollment.Student.StudentName" readonly="readonly" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="enrollment.Course.CourseTitle">Course</label>
+                    <input asp-for="enrollment.Course.CourseTitle" readonly="readonly" class="form-control" />
+                </div>
+                <br />
+                <div class="form-group text-center">
+                    <a asp-page="AllEnrollment" class="btn btn-secondary">Cancel</a> 
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+﻿@page
+@model UniversityPageSergio.Pages.Course.AllCourseModel
+@{
+    ViewData["Title"] = "AllCourse";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-7 offset-3">
+            <p><a asp-page="/Course/AddCourse" class="btn btn-dark">Add a course</a></p>
+            @{
+                if(Model.Courses.Count() == 0)
+                {
+                    <h6 class="text-danger">No courses in database yet!</h6>
+                }
+                else
+                {
+                    <h3>All Courses</h3>
+                    <table class="table table-striped table-bordered">
+                        <tr>
+                            <th>ID</th>
+                            <th>Title</th>
+                            <th>Seat Capacity</th>
+                            <th>Instructor</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        @{
+                            foreach(var course in Model.Courses)
+                            {
+                                <tr>
+                                    <td>@course.CourseId</td>
+                                    <td>@course.CourseTitle</td>
+                                    <td>@course.SeatCapacity</td>
+                                    <td>@course.Instructor.InstructorName</td>
+                                    <td><a asp-page="EditCourse" asp-route-id="@course.CourseId" class="btn btn-warning">Edit</a></td>
+                                    <td><a asp-page="DeleteCourse" asp-route-id="@course.CourseId" class="btn btn-danger">Delete</a></td>
+                                </tr>
+                            }
+                        }
+                    </table>
+                }
+            }
+        </div>
+    </div>
+</div>

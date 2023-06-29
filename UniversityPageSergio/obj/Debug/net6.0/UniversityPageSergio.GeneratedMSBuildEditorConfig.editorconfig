@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = UniversityPageSergio
+build_property.RootNamespace = UniversityPageSergio
+build_property.ProjectDir = C:\DEV\Laboratorios_MVC_Core\UniversityPageSergio\UniversityPageSergio\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\DEV\Laboratorios_MVC_Core\UniversityPageSergio\UniversityPageSergio
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/DEV/Laboratorios_MVC_Core/UniversityPageSergio/UniversityPageSergio/Pages/Course/AddCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNlXEFkZENvdXJzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DEV/Laboratorios_MVC_Core/UniversityPageSergio/UniversityPageSergio/Pages/Course/AllCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNlXEFsbENvdXJzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DEV/Laboratorios_MVC_Core/UniversityPageSergio/UniversityPageSergio/Pages/Course/DeleteCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNlXERlbGV0ZUNvdXJzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DEV/Laboratorios_MVC_Core/UniversityPageSergio/UniversityPageSergio/Pages/Course/EditCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNlXEVkaXRDb3Vyc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DEV/Laboratorios_MVC_Core/UniversityPageSergio/UniversityPageSergio/Pages/Enrollment/AddEnrollment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5yb2xsbWVudFxBZGRFbnJvbGxtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DEV/Laboratorios_MVC_Core/UniversityPageSergio/UniversityPageSergio/Pages/Enrollment/AllEnrollment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5yb2xsbWVudFxBbGxFbnJvbGxtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DEV/Laboratorios_MVC_Core/UniversityPageSergio/UniversityPageSergio/Pages/Enrollment/DeleteEnrollment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5yb2xsbWVudFxEZWxldGVFbnJvbGxtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DEV/Laboratorios_MVC_Core/UniversityPageSergio/UniversityPageSergio/Pages/Enrollment/EditEnrollment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5yb2xsbWVudFxFZGl0RW5yb2xsbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DEV/Laboratorios_MVC_Core/UniversityPageSergio/UniversityPageSergio/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DEV/Laboratorios_MVC_Core/UniversityPageSergio/UniversityPageSergio/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DEV/Laboratorios_MVC_Core/UniversityPageSergio/UniversityPageSergio/Pages/Instructor/AddInstructor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5zdHJ1Y3RvclxBZGRJbnN0cnVjdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DEV/Laboratorios_MVC_Core/UniversityPageSergio/UniversityPageSergio/Pages/Instructor/AllInstructor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5zdHJ1Y3RvclxBbGxJbnN0cnVjdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DEV/Laboratorios_MVC_Core/UniversityPageSergio/UniversityPageSergio/Pages/Instructor/DeleteInstructor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5zdHJ1Y3RvclxEZWxldGVJbnN0cnVjdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DEV/Laboratorios_MVC_Core/UniversityPageSergio/UniversityPageSergio/Pages/Instructor/EditInstructor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5zdHJ1Y3RvclxFZGl0SW5zdHJ1Y3Rvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DEV/Laboratorios_MVC_Core/UniversityPageSergio/UniversityPageSergio/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DEV/Laboratorios_MVC_Core/UniversityPageSergio/UniversityPageSergio/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DEV/Laboratorios_MVC_Core/UniversityPageSergio/UniversityPageSergio/Pages/Student/AddStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudFxBZGRTdHVkZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DEV/Laboratorios_MVC_Core/UniversityPageSergio/UniversityPageSergio/Pages/Student/AllStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudFxBbGxTdHVkZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DEV/Laboratorios_MVC_Core/UniversityPageSergio/UniversityPageSergio/Pages/Student/DeleteStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudFxEZWxldGVTdHVkZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DEV/Laboratorios_MVC_Core/UniversityPageSergio/UniversityPageSergio/Pages/Student/EditStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudFxFZGl0U3R1ZGVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DEV/Laboratorios_MVC_Core/UniversityPageSergio/UniversityPageSergio/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DEV/Laboratorios_MVC_Core/UniversityPageSergio/UniversityPageSergio/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DEV/Laboratorios_MVC_Core/UniversityPageSergio/UniversityPageSergio/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-6ltvpfq8h0

@@ -1,0 +1,37 @@
+﻿@page
+@model UniversityPageSergio.Pages.Enrollment.EditEnrollmentModel
+@{
+    ViewData["Title"] = "EditEnrollment";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-7 offset-3">
+            <h3>Edit Enrollment</h3>
+            <form method="post">
+                <input type="hidden" asp-for="enrollment.EnrollmentId" />
+                <div class="form-group">
+                    <label asp-for="enrollment.Student.StudentName">Student</label>
+                    <select asp-for="enrollment.Student.StudentId" asp-items="Model.StudentsList" id="cmbStudent" class="form-control">
+
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="enrollment.Course.CourseTitle">Instructor</label>
+                    <select asp-for="enrollment.Course.CourseId" asp-items="Model.CoursesList" id="cmbCourse" class="form-control">
+                    </select>
+                </div>
+                <br />
+                <div class="form-group text-center">
+                    <a asp-page="AllEnrollment" class="btn btn-secondary">Cancel</a> 
+                    <button type="submit" class="btn btn-success">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+@section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
